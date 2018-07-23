@@ -1,0 +1,9 @@
+<view class="container">
+  <view >
+     hello
+    </view>
+    <view>
+      world
+     </view>
+  <navigator url="../index/index" hover-class="active">返回首页</navigator>
+  </view>

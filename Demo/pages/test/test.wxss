@@ -1,0 +1,4 @@
+/**index.wxss**/
+.active{
+  color:red;
+}

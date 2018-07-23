@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test"
+  ],
+  "window":{
+    "backgroundTextyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "这里是导航条",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"pink",
+    "selectedColor":"blue",
+    "list":[{
+        "pagePath":"pages/index/index",
+        "text":"hello"
+    },{
+        "pagePath": "pages/test/test",
+        "text": "cee"
+    }]
+  },
+  "debug":true
+}
