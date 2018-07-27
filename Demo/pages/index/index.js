@@ -5,27 +5,16 @@ const app = getApp()
 
 Page({
   data: {
-    motto: '刘师傅测试小程序2',
+    motto: '刘师傅测试小程序',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo'),
-	//立即执行的函数，获取当前时间的字符串
-	currentTime:function(){
-		var now = new Date();
-		var y = now.getFullYear();
-		var m = now.getMonth()+1;
-		var d = now.getDate();
-		var h = now.getHours();
-		var i = now.getMinutes();
-		var s = now.getSeconds();
-		return y+"-"+m+"-"+d+" "+h+":"+i+":"+s
-		}()
-  },
+    canIUse: wx.canIUse('button.open-type.getUserInfo')
+	  },
   //事件处理函数
-  bindViewTap: function() {
+  totest: function() {
     //注意，这就是路由的使用
-    wx.navigateTo({
-      url: '../logs/logs'
+    wx.switchTab({
+      url: '/pages/test/test',
     })
   },
   //编写手机上的点击也就是tap事件响应函数

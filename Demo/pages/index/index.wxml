@@ -4,13 +4,12 @@
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击获取用户昵称</button>
     <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <!--跳转受限-->
+      <button bindtap="totest" class="userinfo-avatar" background-size="cover">跳转</button>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      <text>当前时间：{{currentTime}}</text>
-       </block>
+      </block>
   </view>
-  <navigator url="/page//navigate?title=navigate" hover-class="navigator-hover">导航好不？</navigator>
-  <view class="usermotto">
+    <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
     <button bindtap="changeContent">点击</button>
   </view>

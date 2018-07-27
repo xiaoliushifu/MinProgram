@@ -1,0 +1,16 @@
+<script>
+import wepy from 'wepy';
+import Counter from '../components/counter';
+
+export default class Page extends wepy.page {
+    config = {};
+    components = {counter1: Counter};
+
+    data = {};
+    methods = {};
+
+    events = {};
+    onLoad() {};
+    // Other properties
+}
+</script>
