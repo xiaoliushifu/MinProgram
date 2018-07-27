@@ -1,8 +1,2 @@
-
-<!-- import可以导入别的文件并解析，但是被包含的文件如果还有import就
-不再继续导入-->
- <import src="a.wxml" />
- <!--include的包含仅仅包含内容，不包含<template>部分-->
- <include src="include.wxml" />
- <view> 我是test.wxml </view>
- <template is="include" data="{{name:'刘师傅'}}" />
+<view class="active">我是谁？</view>
+<view class="rap">你好</view>

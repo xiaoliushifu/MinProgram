@@ -1,4 +1,5 @@
 /**index.wxss**/
+@import "a.wxss";
 .active{
   color:red;
 }
