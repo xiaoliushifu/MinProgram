@@ -14,10 +14,15 @@ Page({
       url: '../logs/logs'
     })
   },
-  innerTap:function(){
+  innerTap:function(e){
+    console.log(e,'事件对象')
     console.log('innert 触发了');
   },
-  middleTap:function(){
+  middleTap:function(e){
+    console.log(e, '事件对象')
+    //事件对象包含了事件触发时及以后的一些信息
+    //比如触发源是哪个对象？当前的坐标，时间戳，currentTarget等
+    //屏幕宽度等
     console.log('middle触发了')
   },
   outterTap:function(){

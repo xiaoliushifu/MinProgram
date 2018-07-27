@@ -1,7 +1,9 @@
-<view id="outer" style="border:1px red solid" bindtap="outterTap">
+<view id="outer" style="border:1px red solid" bindtouchmove="outterTap">
   outter这里 冒泡事件
-  <view id="middle" bindtap="middleTap" style="border:1px green solid"> middle这里
+  <view id="middle" catchtap="middleTap" style="border:1px green solid"> middle这里
   catchtap不会冒泡，bindtap会冒泡
-      <view id="inner" catchtap="innerTap">inner这里</view>
+  touchstart 类似于keydown;
+
+      <view id="inner" bindtouchmove="innerTap">inner这里</view>
   </view>
 </view>
