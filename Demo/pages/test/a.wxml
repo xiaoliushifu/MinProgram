@@ -1,0 +1,4 @@
+<view>我是a.wxml</view>
+<template name="sayHello">
+  <text>你好呀~   {{name}}</text>
+</template>

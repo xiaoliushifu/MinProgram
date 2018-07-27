@@ -1,0 +1,4 @@
+<view>我是include.wxml</view>
+<template name="include">
+  <text>你好2呀~   {{name}}</text>
+</template>
