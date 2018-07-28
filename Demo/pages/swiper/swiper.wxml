@@ -1,5 +1,4 @@
-<swiper indicator-dots="{{true}}"
-  >
+<swiper indicator-dots="{{true}}" autoplay="{{true}}"  >
   <!--wx:fox循环一个数组-->
   <block wx:for="{{imgUrls}}">
     <swiper-item>
@@ -8,3 +7,5 @@
     </swiper-item>
   </block>
 </swiper>
+<!--类似于进度条那样的-->
+<slider show-value min="20" max="100"></slider>
