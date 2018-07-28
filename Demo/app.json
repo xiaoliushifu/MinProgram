@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/test/test",
-    "pages/module/module"
+    "pages/module/module",
+    "pages/swiper/swiper"
   ],
   "window":{
     "backgroundTextyle":"light",
@@ -23,6 +24,9 @@
     },{
       "pagePath":"pages/module/module",
       "text":"module"
+    },{
+      "pagePath": "pages/swiper/swiper",
+      "text": "swiper"
     }]
   },
   "debug":true

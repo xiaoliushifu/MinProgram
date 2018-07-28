@@ -1,0 +1,10 @@
+<swiper indicator-dots="{{true}}"
+  >
+  <!--wx:fox循环一个数组-->
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <!--循环的每一项默认是item-->
+      <image src="{{item}}" class="slide-image" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
