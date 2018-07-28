@@ -1,0 +1,24 @@
+.flex-wrap{
+  /*弹性布局，定制一个容器*/
+  display: -webkit-flex;
+}
+.flex-wrap view{
+  /*被弹性容器包裹的就是容器项目*/
+  height:200rpx;
+  font-size: 50rpx;
+  text-align:center;
+  line-height: 200rpx;
+}
+.a{
+  background-color: green;
+  /*弹性容器的子元素的属性*/
+  flex: 1;
+}
+.b{
+  background-color: blue;
+  flex:2;
+}
+.c{
+  background-color:red;
+  flex:1;
+}

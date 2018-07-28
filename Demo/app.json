@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/test/test"
+    "pages/test/test",
+    "pages/module/module"
   ],
   "window":{
     "backgroundTextyle":"light",
@@ -19,6 +20,9 @@
     },{
         "pagePath": "pages/test/test",
         "text": "cee"
+    },{
+      "pagePath":"pages/module/module",
+      "text":"module"
     }]
   },
   "debug":true
